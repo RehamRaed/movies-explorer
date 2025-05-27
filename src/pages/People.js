@@ -8,7 +8,7 @@ function People() {
   const [errorMessage, setErrorMessage] = useState("");
 
   useEffect(() => {
-    fetch(`/data/People.json`)
+    fetch('/data/people.json')
       .then(res => res.json())
       .then(data => setActors(data))
       .catch(err => console.error("Fetch error", err));
