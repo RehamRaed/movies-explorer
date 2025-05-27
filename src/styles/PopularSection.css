@@ -1,0 +1,79 @@
+.popular-section {
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #000000;
+}
+
+.popular-toggle {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.popular-toggle .label {
+  color: white;
+  font-weight: 600;
+  font-size:1.7rem;
+  margin-right: 15px;
+}
+
+.popular-toggle .buttons {
+  position: relative;
+  display: flex;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 50px;
+  height: 37px;
+}
+
+.popular-toggle .buttons button {
+  padding: 6px 27px;
+  background: transparent;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.popular-toggle .buttons button.active {
+  color: #111;
+}
+
+.popular-toggle .buttons .indicator {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  width: 33%;
+  border-radius: 50px;
+  background:  linear-gradient(to right, rgb(163, 238, 255) 20%, hsl(199.8, 100%, 57.8%) 50%);
+  z-index: 1;
+  transition: all 0.4s ease;
+}
+
+.popular-toggle .buttons .indicator.streaming {
+  left: 5px;
+}
+
+.popular-toggle .buttons .indicator.onTv {
+  left: 33%;
+}
+.popular-toggle .buttons .indicator.comingSoon {
+  left: 66%;
+}
+@media (max-width:1265px) {
+  .sort-container {
+    justify-content: center !important;
+  }
+}
+@media (max-width:648px) {
+  .popular-toggle{
+    display: flex;
+    flex-direction: column;
+  }
+}

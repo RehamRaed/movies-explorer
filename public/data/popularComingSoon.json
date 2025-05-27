@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Captain America",
+    "release_date": "February 14, 2025",
+    "score": 85,
+    "image": "/images/coming1.jpg",
+    "category": "coming"
+  },
+  {
+    "id": 2,
+    "title": "Sinners",
+    "release_date": "March 7, 2025",
+    "score": 88,
+    "image": "/images/coming2.jpg",
+    "category": "coming"
+  },
+  {
+    "id": 3,
+    "title": "Mickey 17",
+    "release_date": "April 18, 2025",
+    "score": 90,
+    "image": "/images/coming3.jpg",
+    "category": "coming"
+  },
+  {
+    "id": 4,
+    "title": "Thunderbolts*",
+    "release_date": "May 5, 2025",
+    "score": 87,
+    "image": "/images/coming4.jpg",
+    "category": "coming"
+  },
+  {
+    "id": 5,
+    "title": "Mission: Impossible",
+    "release_date": "May 23, 2025",
+    "score": 92,
+    "image": "/images/coming5.jpg",
+    "category": "coming"
+  },
+  {
+    "id": 6,
+    "title": "28 Years Later",
+    "release_date": "June 20, 2025",
+    "score": 89,
+    "image": "/images/coming6.jpg",
+    "category": "coming"
+  },
+  {
+    "id": 7,
+    "title": "F1",
+    "release_date": "June 27, 2025",
+    "score": 86,
+    "image": "/images/coming7.jpg",
+    "category": "coming"
+  },
+  {
+    "id": 8,
+    "title": "Superman",
+    "release_date": "July 11, 2025",
+    "score": 91,
+    "image": "/images/coming8.jpg",
+    "category": "coming"
+  },
+  {
+    "id": 9,
+    "title": "The Fantastic Four",
+    "release_date": "July 25, 2025",
+    "score": 93,
+    "image": "/images/coming9.jpg",
+    "category": "coming"
+  },
+  {
+    "id": 10,
+    "title": "Wicked: For Good",
+    "release_date": "November 21, 2025",
+    "score": 88,
+    "image": "/images/coming10.jpg",
+    "category": "coming"
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "title": "Nonnas",
+    "image": "/images/streaming1.jpg",
+    "score": 75,
+    "release_date": "Jan 10, 2025",
+    "genres": ["Comedy", "Drama"],
+    "purpose": "main"
+  },
+  {
+    "id": 2,
+    "title": "American Marriage",
+    "image": "/images/streaming2.jpg",
+    "score": 68,
+    "release_date": "Feb 2, 2025",
+    "genres": ["Romance", "Drama"],
+    "purpose": "main"
+  },
+  {
+    "id": 3,
+    "title": "Warfare",
+    "image": "/images/streaming3.jpg",
+    "score": 80,
+    "release_date": "Mar 5, 2025",
+    "genres": ["Action", "War"],
+    "purpose": "main"
+  },
+  {
+    "id": 4,
+    "title": "Havoc",
+    "image": "/images/streaming4.jpg",
+    "score": 85,
+    "release_date": "Nov 8, 2024",
+    "genres": ["Action", "Thriller"],
+    "purpose": "main",
+    "topRated" : true
+  },
+  {
+    "id": 5,
+    "title": "Black Bag",
+    "image": "/images/streaming5.jpg",
+    "score": 72,
+    "release_date": "Dec 19, 2024",
+    "genres": ["Spy", "Thriller"],
+    "purpose": "main"
+  },
+  {
+    "id": 6,
+    "title": "The Ugly Stepsister",
+    "image": "/images/streaming6.jpg",
+    "score": 70,
+    "release_date": "Jan 20, 2025",
+    "genres": ["Fantasy", "Family"],
+    "purpose": "main"
+  },
+  {
+    "id": 7,
+    "title": "The Wallis Island",
+    "image": "/images/streaming7.jpg",
+    "score": 77,
+    "release_date": "Feb 14, 2025",
+    "genres": ["Adventure", "Mystery"],
+    "purpose": "main"
+  },
+  {
+    "id": 8,
+    "title": "Another Simple Favor",
+    "image": "/images/streaming8.jpg",
+    "score": 79,
+    "release_date": "Mar 1, 2025",
+    "genres": ["Comedy", "Mystery"],
+    "purpose": "main"
+  },
+  {
+    "id": 9,
+    "title": "Fountain of Youth",
+    "image": "/images/streaming9.jpg",
+    "score": 74,
+    "release_date": "Apr 7, 2025",
+    "genres": ["Sci-Fi", "Adventure"],
+    "purpose": "main"
+  },
+  {
+    "id": 10,
+    "title": "Babygirl",
+    "image": "/images/streaming10.jpg",
+    "score": 76,
+    "release_date": "May 1, 2025",
+    "genres": ["Drama", "Romance"],
+    "purpose": "main"
+  },
+  {
+  "id": 11,
+  "title": "Fear Street: Prom Queen",
+  "image": "/images/streaming11.jpg",
+  "score": 80,
+  "release_date": "May 23, 2025",
+  "genres": ["Horror", "Thriller"],
+  "purpose": "extra"
+  },
+  {
+    "id": 12,
+    "title": "The Lighthouse Mystery",
+    "image": "/images/streaming12.jpg",
+    "score": 79,
+    "release_date": "May 5, 2025",
+    "genres": ["Mystery", "Thriller"],
+    "purpose": "extra"
+  },
+  {
+  "id": 13,
+  "title": "Fountain of Youth",
+  "image": "/images/streaming13.jpg",
+  "score": 85,
+  "release_date": "May 23, 2025",
+  "genres": ["Action", "Adventure"],
+  "purpose": "extra",
+    "topRated" : true
+  },
+  {
+    "id": 14,
+    "title": "Chasing Gravity",
+    "image": "/images/streaming14.jpg",
+    "score": 83,
+    "release_date": "April 20, 2025",
+    "genres": ["Adventure", "Sci-Fi"],
+    "purpose": "extra"
+  },
+  {
+    "id": 15,
+    "title": "Café Casablanca",
+    "image": "/images/streaming15.jpg",
+    "score": 74,
+    "release_date": "May 3, 2025",
+    "genres": ["Drama", "Romance"],
+    "purpose": "extra"
+  },
+  {
+    "id": 16,
+    "title": "The Legend of Ochi",
+    "image": "/images/streaming16.jpg",
+    "score": 83,
+    "release_date": "May 23, 2025",
+    "genres": ["Fantasy", "Adventure"],
+    "purpose": "extra"
+  },
+  {
+    "id": 17,
+    "title": "The Better Sister",
+    "image": "/images/streaming17.jpg",
+    "score": 78,
+    "release_date": "May 29, 2025",
+    "genres": ["Drama", "Thriller"],
+    "purpose": "extra"
+  }
+]

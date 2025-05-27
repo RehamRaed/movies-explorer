@@ -1,0 +1,114 @@
+.people-container {
+  padding: 60px 45px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.people-container h2{
+  margin-left: 15px;
+  color: rgb(255, 255, 255);
+  
+}
+.cards_wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.actor-card {
+  background-color: #000000;
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0 2px 8px rgba(138, 138, 138, 0.766);
+  cursor: pointer;
+  text-align: left;
+}
+
+
+.actor-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 20%;
+  
+}
+
+
+.actor-card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.actor-card p {
+  font-size: 14px;
+  color: #afafaf;
+  padding-left: 8px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 0 10px;
+  border: none;
+  background-color: #777777;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+
+}
+.pagination .btn {
+  background-color: transparent;
+  font-size: 18px;
+  color: white;
+}
+.pagination .btn:hover {
+    background-color: transparent;
+    color: #ececec;
+}
+.pagination span{
+    color: white;
+    font-weight: 700;
+}
+
+.pagination button:hover {
+  background-color: #ececec;
+}
+.pagination .active {
+  background-color: #ececec;
+  
+}
+
+
+
+.error-message {
+  text-align: center;
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+@media (max-width: 1200px) {
+  .cards-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  .cards-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

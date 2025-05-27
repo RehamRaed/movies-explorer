@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "title": "Titanic",
+    "release_date": "December 19, 1997",
+    "score": 89,
+    "image": "/images/tv1.jpg",
+    "genres": ["Romance", "Drama"],
+    "purpose": "main",
+    "topRated" : true
+  },
+  {
+    "id": 2,
+    "title": "The Godfather",
+    "release_date": "March 24, 1972",
+    "score": 98,
+    "image": "/images/tv2.jpg",
+    "genres": ["Crime", "Drama"],
+    "purpose": "main",
+    "topRated" : true
+  },
+  {
+    "id": 3,
+    "title": "Shawshank Redemption",
+    "release_date": "September 23, 1994",
+    "score": 97,
+    "image": "/images/tv3.jpg",
+    "genres": ["Drama", "Crime"],
+    "purpose": "main",
+    "topRated" : true
+  },
+  {
+    "id": 4,
+    "title": "Forrest Gump",
+    "release_date": "July 6, 1994",
+    "score": 95,
+    "image": "/images/tv4.jpg",
+    "genres": ["Drama", "Romance"],
+    "purpose": "main",
+    "topRated" : true
+  },
+  {
+    "id": 5,
+    "title": "The Lion King",
+    "release_date": "June 24, 1994",
+    "score": 93,
+    "image": "/images/tv5.jpg",
+    "genres": ["Animation", "Adventure", "Drama"],
+    "purpose": "main",
+    "topRated" : true
+  },
+  {
+    "id": 6,
+    "title": "Jurassic Park",
+    "release_date": "June 11, 1993",
+    "score": 92,
+    "image": "/images/tv6.jpg",
+    "genres": ["Adventure", "Sci-Fi", "Thriller"],
+    "purpose": "main",
+    "topRated" : true
+  },
+  {
+    "id": 7,
+    "title": "Tucci in Italy",
+    "release_date": "May 18, 2025",
+    "score": 90,
+    "image": "/images/tv7.jpg",
+    "genres": ["Documentary", "Travel", "Food"],
+    "purpose": "main",
+    "topRated" : true
+  },
+  {
+    "id": 8,
+    "title": "The Sound of Music",
+    "release_date": "March 2, 1965",
+    "score": 90,
+    "image": "/images/tv8.jpg",
+    "genres": ["Musical", "Family", "Drama"],
+    "purpose": "main",
+    "topRated" : true
+  },
+  {
+    "id": 9,
+    "title": "Home Alone",
+    "release_date": "November 16, 1990",
+    "score": 88,
+    "image": "/images/tv9.jpg",
+    "genres": ["Comedy", "Family"],
+    "purpose": "main",
+    "topRated" : true
+  },
+  {
+    "id": 10,
+    "title": "The Wizard of Oz",
+    "release_date": "August 25, 1939",
+    "score": 94,
+    "image": "/images/tv10.jpg",
+    "genres": ["Fantasy", "Adventure", "Family"],
+    "purpose": "main",
+    "topRated" : true
+  },
+   {
+    "id": 11,
+    "title": "Dune: Part Two",
+    "release_date": "March 1, 2024",
+    "score": 93,
+    "image": "/images/tv11.jpg",
+    "genres": ["Sci-Fi", "Adventure", "Drama"],
+    "purpose": "extra",
+    "topRated" : true
+  },
+  {
+    "id": 12,
+    "title": "Oppenheimer",
+    "release_date": "July 21, 2023",
+    "score": 91,
+    "image": "/images/tv12.jpg",
+    "genres": ["Biography", "Drama", "History"],
+    "purpose": "extra",
+    "topRated" : true
+  },
+  {
+    "id": 13,
+    "title": "The Super Mario Bros. Movie",
+    "release_date": "April 5, 2023",
+    "score": 80,
+    "image": "/images/tv13.jpg",
+    "genres": ["Animation", "Adventure", "Comedy"],
+    "purpose": "extra"
+  },
+  {
+    "id": 14,
+    "title": "Avatar: The Way of Water",
+    "release_date": "December 16, 2022",
+    "score": 88,
+    "image": "/images/tv14.jpg",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "purpose": "extra",
+    "topRated" : true
+  },
+  {
+    "id": 15,
+    "title": "La La Land",
+    "release_date": "December 9, 2016",
+    "score": 91,
+    "image": "/images/tv15.jpg",
+    "genres": ["Comedy", "Drama", "Musical"],
+    "purpose": "extra",
+    "topRated" : true
+  },
+  {
+    "id": 16,
+    "title": "Black Panther: Wakanda Forever",
+    "release_date": "November 11, 2022",
+    "score": 84,
+    "image": "/images/tv16.jpg",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "purpose": "extra"
+  },
+  {
+    "id": 17,
+    "title": "Coco",
+    "release_date": "November 22, 2017",
+    "score": 95,
+    "image": "/images/tv17.jpg",
+    "genres": ["Animation", "Adventure", "Family"],
+    "purpose": "extra",
+    "topRated" : true
+  },
+  {
+    "id": 18,
+    "title": "Knives Out",
+    "release_date": "November 27, 2019",
+    "score": 92,
+    "image": "/images/tv18.jpg",
+    "genres": ["Mystery", "Comedy", "Crime"],
+    "purpose": "extra",
+    "topRated" : true
+  },
+  {
+    "id": 19,
+    "title": "Inside Out",
+    "release_date": "June 19, 2015",
+    "score": 94,
+    "image": "/images/tv19.jpg",
+    "genres": ["Animation", "Adventure", "Comedy"],
+    "purpose": "extra",
+    "topRated" : true
+  },
+  {
+    "id": 20,
+    "title": "The Martian",
+    "release_date": "October 2, 2015",
+    "score": 91,
+    "image": "/images/tv20.jpg",
+    "genres": ["Adventure", "Drama", "Sci-Fi"],
+    "purpose": "extra",
+    "topRated" : true
+  },
+  {
+    "id": 21,
+    "title": "Transformers: The Last Knight",
+    "release_date": "June 21, 2017",
+    "score": 47,
+    "image": "/images/tv21.jpg",
+    "genres": ["Action", "Sci-Fi", "Adventure"],
+    "purpose": "extra"
+  },
+  {
+    "id": 22,
+    "title": "Batman v Superman: Dawn of Justice",
+    "release_date": "March 25, 2016",
+    "score": 63,
+    "image": "/images/tv22.jpg",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "purpose": "extra"
+  }
+]

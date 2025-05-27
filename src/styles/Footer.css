@@ -1,0 +1,47 @@
+.footer-section{
+    padding: 40px;
+    text-align: center;
+}
+
+.social_container span{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.social_container .d-flex {
+     gap: 35px;
+}
+
+.footer-links  a{
+  text-decoration: none;
+  color: #dbdbdb !important;
+  transition: color 0.3s;
+}
+.footer-links a:hover{
+    color: rgb(33, 196, 255) !important;
+}
+.footer-icon i {
+  font-size: 1.5rem;
+  transition: color 0.3s;
+  color: rgb(245, 245, 245);
+}
+.footer-icon i:hover {
+  color: rgb(33, 196, 255);
+}
+
+
+.footer-container {
+  background-color: #111;
+}
+.social_container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-align: center;
+    width: 370px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid rgb(84, 84, 84);
+    border-radius: 8px;
+
+}

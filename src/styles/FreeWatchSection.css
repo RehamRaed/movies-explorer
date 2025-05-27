@@ -1,0 +1,72 @@
+.FreeWatch-section {
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #000000;
+}
+
+.FreeWatch-toggle {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.FreeWatch-toggle .label {
+  color: white;
+  font-weight: 600;
+  font-size:1.7rem;
+  margin-right: 15px;
+}
+
+.FreeWatch-toggle .buttons {
+  position: relative;
+  display: flex;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 50px;
+  height: 37px;
+}
+
+.FreeWatch-toggle .buttons button {
+  padding: 6px 27px;
+  background: transparent;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.FreeWatch-toggle .buttons button.active {
+  color: #111;
+}
+
+.FreeWatch-toggle .buttons .indicator {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  width: 50%;
+  border-radius: 50px;
+  background:  linear-gradient(to right, rgb(163, 238, 255) 20%, hsl(199.8, 100%, 57.8%) 50%);
+  z-index: 1;
+  transition: all 0.4s ease;
+}
+
+.FreeWatch-toggle .buttons .indicator.movie {
+  left: 5px;
+}
+
+.FreeWatch-toggle .buttons .indicator.onTv {
+  left: 48%;
+}
+
+@media (max-width:648px) {
+.FreeWatch-toggle{
+  display: flex;
+  flex-direction: column;
+}
+}

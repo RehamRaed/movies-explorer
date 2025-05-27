@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "title": "Batman (1989)",
+    "release_date": "June 23, 1989",
+    "score": 85,
+    "image": "/images/freeOnTv1.jpg",
+    "topRated" : true
+  },
+  {
+    "id": 2,
+    "title": "Safety Not Guaranteed",
+    "release_date": "June 8, 2012",
+    "score": 80,
+    "image": "/images/freeOnTv2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "The Fast and the Furious",
+    "release_date": "June 22, 2001",
+    "score": 82,
+    "image": "/images/freeOnTv3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Thunderheart",
+    "release_date": "April 3, 1992",
+    "score": 79,
+    "image": "/images/freeOnTv4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Predestination",
+    "release_date": "August 28, 2014",
+    "score": 83,
+    "image": "/images/freeOnTv5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Panic Room",
+    "release_date": "March 29, 2002",
+    "score": 81,
+    "image": "/images/freeOnTv6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "House of Flying Daggers",
+    "release_date": "May 19, 2004",
+    "score": 84,
+    "image": "/images/freeOnTv7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Alan Partridge: Alpha Papa",
+    "release_date": "August 7, 2013",
+    "score": 78,
+    "image": "/images/freeOnTv8.jpg"  },
+  {
+    "id": 9,
+    "title": "A Few Good Men",
+    "release_date": "December 11, 1992",
+    "score": 87,
+    "image": "/images/freeOnTv9.jpg",
+    "topRated" : true
+  },
+  {
+    "id": 10,
+    "title": "The Tailor of Panama",
+    "release_date": "March 30, 2001",
+    "score": 80,
+    "image": "/images/freeOnTv10.jpg"
+  }
+]

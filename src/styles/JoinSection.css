@@ -1,0 +1,60 @@
+.join-section {
+  background-image: url('../assets/pexels-cottonbro-8262665.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  position: relative;
+  color: white;
+  margin-top: 50px;
+}
+
+.join-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 208, 255, 0.384);
+  z-index: 0;
+}
+
+.join-container {
+  z-index: 1;
+  padding: 20px 100px;
+   transition: all 0.5s ease;
+}
+
+.join-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.join-description {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+@media (max-width:1200px) {
+  .join-container {
+    padding: 20px 60px ;
+  }
+}
+@media (max-width:1000px) {
+  .join-container {
+    padding: 20px 40px ;
+  }
+}
+@media (max-width:800px) {
+  .join-container {
+    padding: 20px 20px ;
+  }
+}
+@media (max-width:600px) {
+  .join-container {
+    padding: 20px 0px ;
+  }
+}

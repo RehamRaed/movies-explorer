@@ -1,0 +1,141 @@
+.PopularMovies-container {
+  padding: 50px 90px; 
+  background-color: #000000;
+  color: #fff;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+}
+
+
+.sort-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  padding: 0 37px;
+}
+
+.sort-container select {
+  padding: 8px 35px 8px 6px;
+  font-size: 14px;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+}
+
+.filters-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+}
+.movies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.movie-card {
+  width: 240px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.movie-card h4 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+}
+
+.movie-card p {
+  margin: 2px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.show-more-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.show-more-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .sort-container {
+    flex-direction: column;
+  }
+
+  .filters-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .filter-group {
+    width: 100%;
+  }
+}
+@media (max-width: 680px) {
+.PopularMovies-container {
+  padding: 50px 0px;
+}}
+
+.movie-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.movie-card h4 {
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e4e4e4;
+}
+
+.movie-card p {
+  margin: 0 0.5rem;
+  font-size: 0.85rem;
+  color: #ccc;
+}
+

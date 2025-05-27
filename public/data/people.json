@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Samuel L. Jackson",
+    "image": "/images/actor1.jpg",
+    "bio": "American actor known for roles in 'Pulp Fiction' and the Marvel Cinematic Universe. One of the highest-grossing actors of all time."
+  },
+  {
+    "id": 2,
+    "name": "Scarlett Johansson",
+    "image": "/images/actor2.jpg",
+    "bio": "Award-winning American actress best known for playing Black Widow in the MCU."
+  },
+  {
+    "id": 3,
+    "name": "Robert Downey Jr.",
+    "image": "/images/actor3.jpg",
+    "bio": "Iconic actor famous for his role as Tony Stark / Iron Man in Marvel films."
+  },
+  {
+    "id": 4,
+    "name": "Zoe Saldana",
+    "image": "/images/actor4.jpg",
+    "bio": "American actress known for her roles in 'Avatar' and 'Guardians of the Galaxy'."
+  },
+  {
+    "id": 5,
+    "name": "Chris Pratt",
+    "image": "/images/actor5.jpg",
+    "bio": "Starred in 'Guardians of the Galaxy' and 'Jurassic World'."
+  },
+  {
+    "id": 6,
+    "name": "Chris Hemsworth",
+    "image": "/images/actor6.jpg",
+    "bio": "Australian actor known for playing Thor in the Marvel Universe."
+  },
+  {
+    "id": 7,
+    "name": "Tom Cruise",
+    "image": "/images/actor7.jpg",
+    "bio": "Hollywood icon, known for 'Mission: Impossible' and 'Top Gun'."
+  },
+  {
+    "id": 8,
+    "name": "Vin Diesel",
+    "image": "/images/actor8.jpg",
+    "bio": "Famous for his role as Dominic Toretto in the 'Fast & Furious' franchise."
+  },
+  {
+    "id": 9,
+    "name": "Dwayne Johnson",
+    "image": "/images/actor9.jpg",
+    "bio": "Actor and former pro wrestler, starred in 'Jumanji' and 'Fast & Furious'."
+  },
+  {
+    "id": 10,
+    "name": "Leonardo DiCaprio",
+    "image": "/images/actor10.jpg",
+    "bio": "Oscar-winning actor known for 'Titanic', 'Inception', and 'The Revenant'."
+  },
+  {
+    "id": 11,
+    "name": "Brad Pitt",
+    "image": "/images/actor11.jpg",
+    "bio": "Star of 'Fight Club', 'World War Z', and 'Once Upon a Time in Hollywood'."
+  },
+  {
+    "id": 12,
+    "name": "Angelina Jolie",
+    "image": "/images/actor12.jpg",
+    "bio": "Actress and humanitarian, known for 'Maleficent' and 'Tomb Raider'."
+  },
+  {
+    "id": 13,
+    "name": "Johnny Depp",
+    "image": "/images/actor13.jpg",
+    "bio": "Famous for his role as Captain Jack Sparrow in 'Pirates of the Caribbean'."
+  },
+  {
+    "id": 14,
+    "name": "Tom Hanks",
+    "image": "/images/actor14.jpg",
+    "bio": "Legendary actor known for 'Forrest Gump', 'Cast Away', and 'Saving Private Ryan'."
+  },
+  {
+    "id": 15,
+    "name": "Morgan Freeman",
+    "image": "/images/actor15.jpg",
+    "bio": "Acclaimed actor with iconic roles in 'The Shawshank Redemption' and more."
+  },
+  {
+    "id": 16,
+    "name": "Matt Damon",
+    "image": "/images/actor16.jpg",
+    "bio": "Known for 'The Martian', 'Bourne' series, and 'Good Will Hunting'."
+  },
+  {
+    "id": 17,
+    "name": "Christian Bale",
+    "image": "/images/actor17.jpg",
+    "bio": "British actor who portrayed Batman in 'The Dark Knight' trilogy."
+  },
+  {
+    "id": 18,
+    "name": "Michael Caine",
+    "image": "/images/actor18.jpg",
+    "bio": "British film icon known for roles in 'The Dark Knight' and 'Inception'."
+  },
+  {
+    "id": 19,
+    "name": "Peyton List",
+    "image": "/images/actor19.jpg",
+    "bio": "American actress featured in 'Cobra Kai' and 'The Friendship Game'."
+  },
+  {
+    "id": 20,
+    "name": "Ezra Miller",
+    "image": "/images/actor20.jpg",
+    "bio": "Starred as The Flash in the DC Extended Universe."
+  },
+  {
+  "id": 21,
+  "name": "Keanu Reeves",
+  "image": "/images/actor21.jpg",
+  "bio": "Canadian actor best known for his roles in 'The Matrix' and 'John Wick' franchises."
+},
+{
+  "id": 22,
+  "name": "Emma Watson",
+  "image": "/images/actor22.jpg",
+  "bio": "British actress famous for portraying Hermione Granger in the 'Harry Potter' series."
+},
+{
+  "id": 23,
+  "name": "Will Smith",
+  "image": "/images/actor23.jpg",
+  "bio": "American actor and rapper known for 'Men in Black', 'The Pursuit of Happyness', and 'King Richard'."
+},
+{
+  "id": 24,
+  "name": "Natalie Portman",
+  "image": "/images/actor24.jpg",
+  "bio": "Academy Award-winning actress known for 'Black Swan', 'V for Vendetta', and the 'Thor' films."
+}
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Sinner",
+    "image": "/images/today1.jpg",
+    "score": 80,
+    "release_date": "Aug 7, 2017"
+  },
+  {
+    "id": 2,
+    "title": "Wolf Man",
+    "image": "/images/today2.jpg",
+    "score": 77,
+    "release_date": "Feb 3, 2025"
+  },
+  {
+    "id": 3,
+    "title": "Aqua Man",
+    "image": "/images/today3.jpg",
+    "score": 67,
+    "release_date": "Dec 12, 2018"
+  },
+  {
+    "id": 4,
+    "title": "Mafia Muslimah",
+    "image": "/images/today4.jpg",
+    "score": 60,
+    "release_date": "May 11, 2022"
+  },
+  {
+    "id": 5,
+    "title": "QuickSand",
+    "image": "/images/today5.jpg",
+    "score": 40,
+    "release_date": "Apr 5, 2019"
+  },
+  {
+    "id": 6,
+    "title": "Hayatla Baris",
+    "image": "/images/today6.jpg",
+    "score": 88,
+    "release_date": "Sep 14, 2020",
+    "topRated" : true
+  },
+  {
+    "id": 7,
+    "title": "Askim yuzu",
+    "image": "/images/today7.jpg",
+    "score": 73,
+    "release_date": "Jul 22, 2016"
+  },
+  {
+    "id": 8,
+    "title": "The Head",
+    "image": "/images/today8.jpg",
+    "score": 79,
+    "release_date": "Jun 12, 2020"
+  },
+  {
+    "id": 9,
+    "title": "Dilwaly",
+    "image": "/images/today9.jpg",
+    "score": 82,
+    "release_date": "Dec 18, 2015"
+  },
+  {
+    "id": 10,
+    "title": "Skyscraper",
+    "image": "/images/today10.jpg",
+    "score": 55,
+    "release_date": "Jul 13, 2018"
+  },
+  {
+    "id": 11,
+    "title": "Elle Maloush Kbeer",
+    "image": "/images/today11.jpg",
+    "score": 76,
+    "release_date": "Apr 12, 2021"
+  },
+  {
+    "id": 12,
+    "title": "Suicide Squad2",
+    "image": "/images/today12.jpg",
+    "score": 88,
+    "release_date": "Aug 6, 2021",
+    "topRated" : true
+  },
+  {
+    "id": 13,
+    "title": "Pathan",
+    "image": "/images/today13.jpg",
+    "score": 69,
+    "release_date": "Jan 25, 2023"
+  },
+  {
+    "id": 14,
+    "title": "Mummy",
+    "image": "/images/today14.jpg",
+    "score": 88,
+    "release_date": "Jun 9, 2017",
+    "topRated" : true
+  },
+  {
+    "id": 15,
+    "title": "Etla3oly bara",
+    "image": "/images/today15.jpg",
+    "score": 70,
+    "release_date": "Oct 3, 2018"
+  }
+]
