@@ -45,3 +45,9 @@
     border-radius: 8px;
 
 }
+
+@media (max-width:500px) {
+  .social_container{
+     width: 300px;
+}
+}
