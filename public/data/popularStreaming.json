@@ -6,7 +6,10 @@
     "score": 75,
     "release_date": "Jan 10, 2025",
     "genres": ["Comedy", "Drama"],
-    "purpose": "main"
+    "purpose": "main",
+    "description": "A heartwarming comedy about grandmothers opening a unique restaurant together.",
+    "available_on": ["Netflix"],
+    "main_actors": ["Sophia Loren", "Emma Thompson"]
   },
   {
     "id": 2,
@@ -15,7 +18,10 @@
     "score": 68,
     "release_date": "Feb 2, 2025",
     "genres": ["Romance", "Drama"],
-    "purpose": "main"
+    "purpose": "main",
+    "description": "A story of love, commitment, and struggle in a modern American relationship.",
+    "available_on": ["Amazon Prime Video"],
+    "main_actors": ["Viola Davis", "Denzel Washington"]
   },
   {
     "id": 3,
@@ -24,7 +30,10 @@
     "score": 80,
     "release_date": "Mar 5, 2025",
     "genres": ["Action", "War"],
-    "purpose": "main"
+    "purpose": "main",
+    "description": "Elite soldiers embark on a mission deep behind enemy lines to turn the tide of war.",
+    "available_on": ["HBO Max"],
+    "main_actors": ["Chris Hemsworth", "Idris Elba"]
   },
   {
     "id": 4,
@@ -34,7 +43,10 @@
     "release_date": "Nov 8, 2024",
     "genres": ["Action", "Thriller"],
     "purpose": "main",
-    "topRated" : true
+    "topRated": true,
+    "description": "A detective fights through a criminal underworld to rescue a politician’s son.",
+    "available_on": ["Netflix"],
+    "main_actors": ["Tom Hardy", "Forest Whitaker"]
   },
   {
     "id": 5,
@@ -43,7 +55,10 @@
     "score": 72,
     "release_date": "Dec 19, 2024",
     "genres": ["Spy", "Thriller"],
-    "purpose": "main"
+    "purpose": "main",
+    "description": "A retired spy is pulled into one final mission that uncovers a global conspiracy.",
+    "available_on": ["Disney+"],
+    "main_actors": ["Charlize Theron", "Cillian Murphy"]
   },
   {
     "id": 6,
@@ -52,7 +67,10 @@
     "score": 70,
     "release_date": "Jan 20, 2025",
     "genres": ["Fantasy", "Family"],
-    "purpose": "main"
+    "purpose": "main",
+    "description": "A fantasy twist on the classic fairy tale told from the perspective of the stepsister.",
+    "available_on": ["Disney+", "Netflix"],
+    "main_actors": ["Millie Bobby Brown", "Helena Bonham Carter"]
   },
   {
     "id": 7,
@@ -61,7 +79,10 @@
     "score": 77,
     "release_date": "Feb 14, 2025",
     "genres": ["Adventure", "Mystery"],
-    "purpose": "main"
+    "purpose": "main",
+    "description": "Adventurers explore a mysterious island hiding ancient secrets.",
+    "available_on": ["Apple TV+"],
+    "main_actors": ["Tom Holland", "Zendaya"]
   },
   {
     "id": 8,
@@ -70,7 +91,10 @@
     "score": 79,
     "release_date": "Mar 1, 2025",
     "genres": ["Comedy", "Mystery"],
-    "purpose": "main"
+    "purpose": "main",
+    "description": "A quirky mystery unravels as two friends dig deeper into a sudden disappearance.",
+    "available_on": ["Hulu"],
+    "main_actors": ["Anna Kendrick", "Blake Lively"]
   },
   {
     "id": 9,
@@ -79,7 +103,10 @@
     "score": 74,
     "release_date": "Apr 7, 2025",
     "genres": ["Sci-Fi", "Adventure"],
-    "purpose": "main"
+    "purpose": "main",
+    "description": "An expedition to find the legendary fountain leads to unexpected discoveries.",
+    "available_on": ["Amazon Prime Video"],
+    "main_actors": ["Oscar Isaac", "Jessica Chastain"]
   },
   {
     "id": 10,
@@ -88,16 +115,22 @@
     "score": 76,
     "release_date": "May 1, 2025",
     "genres": ["Drama", "Romance"],
-    "purpose": "main"
+    "purpose": "main",
+    "description": "A young woman’s life is changed forever after a chance encounter with an artist.",
+    "available_on": ["Netflix"],
+    "main_actors": ["Saoirse Ronan", "Timothée Chalamet"]
   },
   {
-  "id": 11,
-  "title": "Fear Street: Prom Queen",
-  "image": "/images/streaming11.jpg",
-  "score": 80,
-  "release_date": "May 23, 2025",
-  "genres": ["Horror", "Thriller"],
-  "purpose": "extra"
+    "id": 11,
+    "title": "Fear Street: Prom Queen",
+    "image": "/images/streaming11.jpg",
+    "score": 80,
+    "release_date": "May 23, 2025",
+    "genres": ["Horror", "Thriller"],
+    "purpose": "extra",
+    "description": "At a high school prom, a deadly mystery unfolds when students begin to vanish one by one.",
+    "available_on": ["Netflix"],
+    "main_actors": ["Kiana Madeira", "Olivia Scott Welch"]
   },
   {
     "id": 12,
@@ -106,17 +139,23 @@
     "score": 79,
     "release_date": "May 5, 2025",
     "genres": ["Mystery", "Thriller"],
-    "purpose": "extra"
+    "purpose": "extra",
+    "description": "A journalist uncovers secrets hidden in an abandoned lighthouse on a remote island.",
+    "available_on": ["Amazon Prime Video"],
+    "main_actors": ["Jake Gyllenhaal", "Rooney Mara"]
   },
   {
-  "id": 13,
-  "title": "Fountain of Youth",
-  "image": "/images/streaming13.jpg",
-  "score": 85,
-  "release_date": "May 23, 2025",
-  "genres": ["Action", "Adventure"],
-  "purpose": "extra",
-    "topRated" : true
+    "id": 13,
+    "title": "Fountain of Youth",
+    "image": "/images/streaming13.jpg",
+    "score": 85,
+    "release_date": "May 23, 2025",
+    "genres": ["Action", "Adventure"],
+    "purpose": "extra",
+    "topRated": true,
+    "description": "A rogue adventurer and a brilliant scientist race to find the mythical fountain before it falls into the wrong hands.",
+    "available_on": ["Hulu"],
+    "main_actors": ["Gal Gadot", "Pedro Pascal"]
   },
   {
     "id": 14,
@@ -125,7 +164,10 @@
     "score": 83,
     "release_date": "April 20, 2025",
     "genres": ["Adventure", "Sci-Fi"],
-    "purpose": "extra"
+    "purpose": "extra",
+    "description": "A team of astronauts ventures into deep space in search of a planet where gravity behaves differently.",
+    "available_on": ["Apple TV+"],
+    "main_actors": ["Ryan Gosling", "Natalie Portman"]
   },
   {
     "id": 15,
@@ -134,7 +176,10 @@
     "score": 74,
     "release_date": "May 3, 2025",
     "genres": ["Drama", "Romance"],
-    "purpose": "extra"
+    "purpose": "extra",
+    "description": "In the heart of Casablanca, two strangers connect in a timeless café filled with stories of love and loss.",
+    "available_on": ["Netflix"],
+    "main_actors": ["Rami Malek", "Marion Cotillard"]
   },
   {
     "id": 16,
@@ -143,7 +188,10 @@
     "score": 83,
     "release_date": "May 23, 2025",
     "genres": ["Fantasy", "Adventure"],
-    "purpose": "extra"
+    "purpose": "extra",
+    "description": "A young girl sets out on a mystical journey to find a creature from ancient legends known as Ochi.",
+    "available_on": ["Disney+"],
+    "main_actors": ["Cailey Fleming", "Richard E. Grant"]
   },
   {
     "id": 17,
@@ -152,6 +200,57 @@
     "score": 78,
     "release_date": "May 29, 2025",
     "genres": ["Drama", "Thriller"],
-    "purpose": "extra"
+    "purpose": "extra",
+    "description": "After a shocking murder, two sisters must face the dark secrets hidden in their past.",
+    "available_on": ["HBO Max"],
+    "main_actors": ["Elisabeth Moss", "Claire Foy"]
+  },
+   {
+    "id": 18,
+    "title": "Echoes in the Fog",
+    "image": "/images/streaming18.jpg",
+    "score": 82,
+    "release_date": "May 30, 2025",
+    "genres": ["Mystery", "Drama"],
+    "purpose": "extra",
+    "description": "A grieving woman starts seeing visions of her missing sister through the thick coastal fog.",
+    "available_on": ["Netflix"],
+    "main_actors": ["Amy Adams", "Rebecca Ferguson"]
+  },
+  {
+    "id": 19,
+    "title": "Zero Day",
+    "image": "/images/streaming19.jpg",
+    "score": 86,
+    "release_date": "June 7, 2025",
+    "genres": ["Thriller", "Tech"],
+    "purpose": "extra",
+    "description": "A cybersecurity expert uncovers a virus capable of triggering global chaos.",
+    "available_on": ["Amazon Prime Video"],
+    "main_actors": ["Joseph Gordon-Levitt", "Tessa Thompson"]
+  },
+  {
+    "id": 20,
+    "title": "Stolen Skies",
+    "image": "/images/streaming20.jpg",
+    "score": 84,
+    "release_date": "June 15, 2025",
+    "genres": ["Sci-Fi", "Adventure"],
+    "purpose": "extra",
+    "description": "After a strange atmospheric phenomenon, a group of pilots must solve the mystery of disappearing stars.",
+    "available_on": ["HBO Max"],
+    "main_actors": ["Anya Taylor-Joy", "John Boyega"]
+  },
+  {
+    "id": 21,
+    "title": "Whispers of Kyoto",
+    "image": "/images/streaming21.jpg",
+    "score": 79,
+    "release_date": "June 20, 2025",
+    "genres": ["Romance", "Fantasy"],
+    "purpose": "extra",
+    "description": "An American writer falls in love with a mysterious artist while uncovering the secrets of an ancient temple.",
+    "available_on": ["Disney+"],
+    "main_actors": ["Dev Patel", "Gemma Chan"]
   }
 ]

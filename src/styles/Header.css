@@ -121,7 +121,7 @@
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
   border-bottom: 10px solid #ffffff;
-  z-index: 3;
+  z-index: 1005;
   transition: all 0.5s ease;
 }
 .tooltip-link{
@@ -155,7 +155,7 @@
    .navbar-toggler {
     display: block;
     z-index: 999;
-    margin-left: 18px;
+    margin-left: 40px;
 }
   .nav-links.active {
     left: 0;
@@ -170,7 +170,7 @@
     width: 100%;
   }
   .header {
-    padding: 15px 45px;
+    padding: 15px 32px;
   }
   .close-icon{
     display: block;

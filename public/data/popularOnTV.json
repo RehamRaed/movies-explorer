@@ -7,7 +7,10 @@
     "image": "/images/tv1.jpg",
     "genres": ["Romance", "Drama"],
     "purpose": "main",
-    "topRated" : true
+    "topRated": true,
+    "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+    "available_on": ["Netflix", "Amazon Prime Video", "Apple TV"],
+    "main_actors": ["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"]
   },
   {
     "id": 2,
@@ -17,7 +20,10 @@
     "image": "/images/tv2.jpg",
     "genres": ["Crime", "Drama"],
     "purpose": "main",
-    "topRated" : true
+    "topRated": true,
+    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "available_on": ["Paramount+", "Amazon Prime Video"],
+    "main_actors": ["Marlon Brando", "Al Pacino", "James Caan"]
   },
   {
     "id": 3,
@@ -27,7 +33,10 @@
     "image": "/images/tv3.jpg",
     "genres": ["Drama", "Crime"],
     "purpose": "main",
-    "topRated" : true
+    "topRated": true,
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "available_on": ["Netflix", "HBO Max"],
+    "main_actors": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"]
   },
   {
     "id": 4,
@@ -37,7 +46,10 @@
     "image": "/images/tv4.jpg",
     "genres": ["Drama", "Romance"],
     "purpose": "main",
-    "topRated" : true
+    "topRated": true,
+    "description": "The presidencies of Kennedy and Johnson, Vietnam, Watergate, and other events unfold through the perspective of an Alabama man with a low IQ.",
+    "available_on": ["Netflix", "Paramount+", "Apple TV"],
+    "main_actors": ["Tom Hanks", "Robin Wright", "Gary Sinise"]
   },
   {
     "id": 5,
@@ -47,7 +59,10 @@
     "image": "/images/tv5.jpg",
     "genres": ["Animation", "Adventure", "Drama"],
     "purpose": "main",
-    "topRated" : true
+    "topRated": true,
+    "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+    "available_on": ["Disney+", "Amazon Prime Video"],
+    "main_actors": ["Matthew Broderick", "Jeremy Irons", "James Earl Jones"]
   },
   {
     "id": 6,
@@ -57,17 +72,23 @@
     "image": "/images/tv6.jpg",
     "genres": ["Adventure", "Sci-Fi", "Thriller"],
     "purpose": "main",
-    "topRated" : true
+    "topRated": true,
+    "description": "A group of scientists and visitors struggle to survive when cloned dinosaurs break loose on an island theme park.",
+    "available_on": ["Netflix", "Amazon Prime"],
+    "main_actors": ["Sam Neill", "Laura Dern", "Jeff Goldblum"]
   },
   {
     "id": 7,
     "title": "Tucci in Italy",
     "release_date": "May 18, 2025",
     "score": 90,
+    "topRated": true,
     "image": "/images/tv7.jpg",
     "genres": ["Documentary", "Travel", "Food"],
     "purpose": "main",
-    "topRated" : true
+    "description": "Stanley Tucci explores Italy’s rich culture and cuisine, one region at a time.",
+    "available_on": ["Netflix", "Amazon Prime"],
+    "main_actors": ["Stanley Tucci"]
   },
   {
     "id": 8,
@@ -75,49 +96,64 @@
     "release_date": "March 2, 1965",
     "score": 90,
     "image": "/images/tv8.jpg",
+    "topRated": true,
     "genres": ["Musical", "Family", "Drama"],
     "purpose": "main",
-    "topRated" : true
+    "description": "A young woman leaves an Austrian convent to become a governess to a naval officer's children.",
+    "available_on": ["Disney+"],
+    "main_actors": ["Julie Andrews", "Christopher Plummer"]
   },
   {
     "id": 9,
     "title": "Home Alone",
     "release_date": "November 16, 1990",
     "score": 88,
+    "topRated": true,
     "image": "/images/tv9.jpg",
     "genres": ["Comedy", "Family"],
     "purpose": "main",
-    "topRated" : true
+    "description": "An 8-year-old troublemaker must protect his house from a pair of burglars when he's accidentally left home alone.",
+    "available_on": ["Disney+"],
+    "main_actors": ["Macaulay Culkin", "Joe Pesci", "Daniel Stern"]
   },
   {
     "id": 10,
     "title": "The Wizard of Oz",
     "release_date": "August 25, 1939",
     "score": 94,
+    "topRated": true,
     "image": "/images/tv10.jpg",
     "genres": ["Fantasy", "Adventure", "Family"],
     "purpose": "main",
-    "topRated" : true
+    "description": "Dorothy is swept away to a magical land and embarks on a quest to see the Wizard who can help her return home.",
+    "available_on": ["HBO Max", "Amazon Prime"],
+    "main_actors": ["Judy Garland", "Frank Morgan", "Ray Bolger"]
   },
-   {
+  {
     "id": 11,
     "title": "Dune: Part Two",
     "release_date": "March 1, 2024",
     "score": 93,
+    "topRated": true,
     "image": "/images/tv11.jpg",
     "genres": ["Sci-Fi", "Adventure", "Drama"],
     "purpose": "extra",
-    "topRated" : true
+    "description": "Paul Atreides unites with the Fremen to seek revenge against those who destroyed his family.",
+    "available_on": ["Max"],
+    "main_actors": ["Timothée Chalamet", "Zendaya", "Rebecca Ferguson"]
   },
   {
     "id": 12,
     "title": "Oppenheimer",
     "release_date": "July 21, 2023",
     "score": 91,
+    "topRated": true,
     "image": "/images/tv12.jpg",
     "genres": ["Biography", "Drama", "History"],
     "purpose": "extra",
-    "topRated" : true
+    "description": "A biopic of J. Robert Oppenheimer, the father of the atomic bomb, and the moral dilemmas he faced.",
+    "available_on": ["Peacock"],
+    "main_actors": ["Cillian Murphy", "Emily Blunt", "Robert Downey Jr."]
   },
   {
     "id": 13,
@@ -126,27 +162,36 @@
     "score": 80,
     "image": "/images/tv13.jpg",
     "genres": ["Animation", "Adventure", "Comedy"],
-    "purpose": "extra"
+    "purpose": "extra",
+    "description": "Mario and Luigi must rescue Princess Peach and stop Bowser from taking over the world.",
+    "available_on": ["Peacock"],
+    "main_actors": ["Chris Pratt", "Anya Taylor-Joy", "Jack Black"]
   },
   {
     "id": 14,
     "title": "Avatar: The Way of Water",
     "release_date": "December 16, 2022",
     "score": 88,
+    "topRated": true,
     "image": "/images/tv14.jpg",
     "genres": ["Action", "Adventure", "Fantasy"],
     "purpose": "extra",
-    "topRated" : true
+    "description": "Jake Sully and Neytiri face new threats to protect their family on Pandora.",
+    "available_on": ["Disney+"],
+    "main_actors": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"]
   },
   {
     "id": 15,
     "title": "La La Land",
     "release_date": "December 9, 2016",
     "score": 91,
+    "topRated": true,
     "image": "/images/tv15.jpg",
     "genres": ["Comedy", "Drama", "Musical"],
     "purpose": "extra",
-    "topRated" : true
+    "description": "A jazz musician and an aspiring actress fall in love while pursuing their dreams in Los Angeles.",
+    "available_on": ["Netflix"],
+    "main_actors": ["Ryan Gosling", "Emma Stone"]
   },
   {
     "id": 16,
@@ -155,47 +200,62 @@
     "score": 84,
     "image": "/images/tv16.jpg",
     "genres": ["Action", "Adventure", "Sci-Fi"],
-    "purpose": "extra"
+    "purpose": "extra",
+    "description": "Wakanda faces new global threats while mourning the loss of King T’Challa.",
+    "available_on": ["Disney+"],
+    "main_actors": ["Letitia Wright", "Angela Bassett", "Tenoch Huerta"]
   },
   {
     "id": 17,
     "title": "Coco",
     "release_date": "November 22, 2017",
     "score": 95,
+    "topRated": true,
     "image": "/images/tv17.jpg",
     "genres": ["Animation", "Adventure", "Family"],
     "purpose": "extra",
-    "topRated" : true
+    "description": "A young boy named Miguel embarks on a journey to the Land of the Dead to uncover his family's history.",
+    "available_on": ["Disney+"],
+    "main_actors": ["Anthony Gonzalez", "Gael García Bernal"]
   },
   {
     "id": 18,
     "title": "Knives Out",
     "release_date": "November 27, 2019",
     "score": 92,
+    "topRated": true,
     "image": "/images/tv18.jpg",
     "genres": ["Mystery", "Comedy", "Crime"],
     "purpose": "extra",
-    "topRated" : true
+    "description": "A renowned detective investigates the mysterious death of a wealthy patriarch.",
+    "available_on": ["Netflix"],
+    "main_actors": ["Daniel Craig", "Ana de Armas", "Chris Evans"]
   },
   {
     "id": 19,
     "title": "Inside Out",
     "release_date": "June 19, 2015",
     "score": 94,
+    "topRated": true,
     "image": "/images/tv19.jpg",
     "genres": ["Animation", "Adventure", "Comedy"],
     "purpose": "extra",
-    "topRated" : true
+    "description": "The emotions inside a young girl's mind struggle to help her through a life-changing move.",
+    "available_on": ["Disney+"],
+    "main_actors": ["Amy Poehler", "Phyllis Smith", "Mindy Kaling"]
   },
   {
     "id": 20,
     "title": "The Martian",
     "release_date": "October 2, 2015",
     "score": 91,
+    "topRated": true,
     "image": "/images/tv20.jpg",
     "genres": ["Adventure", "Drama", "Sci-Fi"],
     "purpose": "extra",
-    "topRated" : true
+    "description": "An astronaut becomes stranded on Mars and must use his ingenuity to survive until rescue.",
+    "available_on": ["Amazon Prime", "Disney+"],
+    "main_actors": ["Matt Damon", "Jessica Chastain", "Kristen Wiig"]
   },
   {
     "id": 21,
@@ -204,7 +264,10 @@
     "score": 47,
     "image": "/images/tv21.jpg",
     "genres": ["Action", "Sci-Fi", "Adventure"],
-    "purpose": "extra"
+    "purpose": "extra",
+    "description": "Optimus Prime turns against Earth, and humans and Autobots must unite to save the world.",
+    "available_on": ["Paramount+", "Amazon Prime"],
+    "main_actors": ["Mark Wahlberg", "Anthony Hopkins", "Laura Haddock"]
   },
   {
     "id": 22,
@@ -213,6 +276,70 @@
     "score": 63,
     "image": "/images/tv22.jpg",
     "genres": ["Action", "Adventure", "Sci-Fi"],
-    "purpose": "extra"
+    "purpose": "extra",
+    "description": "Batman and Superman clash over their differing ideologies while a new threat emerges.",
+    "available_on": ["HBO Max"],
+    "main_actors": ["Ben Affleck", "Henry Cavill", "Gal Gadot"]
+  },
+  {
+    "id": 23,
+    "title": "Everything Everywhere All at Once",
+    "release_date": "March 11, 2022",
+    "score": 94,
+    "topRated": true,
+    "image": "/images/tv23.jpg",
+    "genre": ["Action", "Comedy", "Sci-Fi"],
+    "purpose": "extra",
+    "short_description": "An aging Chinese immigrant is swept up in an insane adventure across the multiverse.",
+    "available_on": ["OSN Movies Hollywood"],
+    "main_actors": ["Michelle Yeoh", "Ke Huy Quan", "Stephanie Hsu"]
+  },
+  {
+    "id": 24,
+    "title": "Magic Mike's Last Dance",
+    "release_date": "February 10, 2023",
+    "score": 49,
+    "image": "/images/tv24.jpg",
+    "genre": ["Comedy", "Drama", "Romance"],
+    "purpose": "extra",
+    "short_description": "Mike heads to London for one last show, only to face unexpected twists.",
+    "available_on": ["OSN Movies Comedy"],
+    "main_actors": ["Channing Tatum", "Salma Hayek"]
+  },
+  {
+    "id": 25,
+    "title": "Me Before You",
+    "release_date": "March 25, 2016",
+    "score": 63,
+    "image": "/images/tv25.jpg",
+    "genre": ["Drama", "Romance"],
+    "purpose": "extra",
+    "short_description": "A caregiver tries to give a paralyzed man a reason to enjoy life again.",
+    "available_on": ["OSN Movies Hollywood"],
+    "main_actors": ["Emilia Clarke", "Sam Claflin"]
+  },
+  {
+    "id": 26,
+    "title": "Furiosa: A Mad Max Saga",
+    "release_date": "May 24, 2024",
+    "score": 80,
+    "image": "/images/tv26.jpg",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "purpose": "extra",
+    "short_description": "Young Furiosa must survive and find her way back home through chaos and warlords.",
+    "available_on": ["OSN Movies Premiere"],
+    "main_actors": ["Anya Taylor-Joy", "Chris Hemsworth"]
+  },
+  {
+    "id": 27,
+    "title": "Despicable Me 2",
+    "release_date": "June 5, 2013",
+    "score": 75,
+    "image": "/images/tv27.jpg",
+    "genre": ["Animation", "Comedy", "Family"],
+    "purpose": "extra",
+    "short_description": "Gru joins the Anti-Villain League to fight a powerful new enemy.",
+    "available_on": ["MBC Max"],
+    "main_actors": ["Steve Carell", "Kristen Wiig"]
   }
 ]

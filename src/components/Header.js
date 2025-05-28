@@ -36,7 +36,7 @@ function Header() {
     setTimeout(() => {
       setShowLoginModal(false);
       setFadeState("fade-in");
-    },600); 
+    }, 600);
   };
 
   const sidenavShow = () => {
@@ -219,7 +219,7 @@ function Header() {
             />
 
             <p className="modal-message">
-              This is a demo. Your data is not stored.
+              This is a demo , Your data is not stored.
             </p>
 
             <p className="modal-link">

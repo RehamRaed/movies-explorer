@@ -5,7 +5,11 @@
     "release_date": "February 14, 2025",
     "score": 85,
     "image": "/images/coming1.jpg",
-    "category": "coming"
+    "category": "coming",
+    "description": "The next chapter of Captain America's journey as Sam Wilson dons the shield to face new global threats.",
+    "available_on": ["Disney+"],
+    "main_actors": ["Anthony Mackie", "Danny Ramirez", "Harrison Ford"],
+    "genres": ["Action", "Adventure", "Superhero"]
   },
   {
     "id": 2,
@@ -13,7 +17,11 @@
     "release_date": "March 7, 2025",
     "score": 88,
     "image": "/images/coming2.jpg",
-    "category": "coming"
+    "category": "coming",
+    "description": "A dark psychological thriller exploring guilt, redemption, and the secrets people hide.",
+    "available_on": ["Netflix"],
+    "main_actors": ["Jessica Chastain", "Oscar Isaac", "Rami Malek"],
+    "genres": ["Thriller", "Drama", "Psychological"]
   },
   {
     "id": 3,
@@ -21,7 +29,11 @@
     "release_date": "April 18, 2025",
     "score": 90,
     "image": "/images/coming3.jpg",
-    "category": "coming"
+    "category": "coming",
+    "description": "A disposable employee on a human expedition sent to colonize an ice world refuses to let his replacement clone take over.",
+    "available_on": ["HBO Max"],
+    "main_actors": ["Robert Pattinson", "Steven Yeun", "Naomi Ackie"],
+    "genres": ["Sci-Fi", "Adventure", "Drama"]
   },
   {
     "id": 4,
@@ -29,7 +41,11 @@
     "release_date": "May 5, 2025",
     "score": 87,
     "image": "/images/coming4.jpg",
-    "category": "coming"
+    "category": "coming",
+    "description": "A group of anti-heroes and reformed villains are assembled for a secret government mission in the Marvel Universe.",
+    "available_on": ["Disney+"],
+    "main_actors": ["Florence Pugh", "Sebastian Stan", "Wyatt Russell"],
+    "genres": ["Action", "Superhero", "Sci-Fi"]
   },
   {
     "id": 5,
@@ -37,7 +53,11 @@
     "release_date": "May 23, 2025",
     "score": 92,
     "image": "/images/coming5.jpg",
-    "category": "coming"
+    "category": "coming",
+    "description": "Ethan Hunt returns for another globe-trotting mission filled with espionage, action, and impossible stunts.",
+    "available_on": ["Paramount+"],
+    "main_actors": ["Tom Cruise", "Rebecca Ferguson", "Hayley Atwell"],
+    "genres": ["Action", "Thriller", "Spy"]
   },
   {
     "id": 6,
@@ -45,7 +65,11 @@
     "release_date": "June 20, 2025",
     "score": 89,
     "image": "/images/coming6.jpg",
-    "category": "coming"
+    "category": "coming",
+    "description": "The next installment in the post-apocalyptic horror saga continues to explore the terrifying aftermath of viral outbreak.",
+    "available_on": ["HBO Max"],
+    "main_actors": ["Cillian Murphy", "Imogen Poots", "Aaron Taylor-Johnson"],
+    "genres": ["Horror", "Thriller", "Sci-Fi"]
   },
   {
     "id": 7,
@@ -53,7 +77,11 @@
     "release_date": "June 27, 2025",
     "score": 86,
     "image": "/images/coming7.jpg",
-    "category": "coming"
+    "category": "coming",
+    "description": "A high-octane sports drama set in the world of Formula 1 racing, produced by Brad Pitt.",
+    "available_on": ["Apple TV+"],
+    "main_actors": ["Brad Pitt", "Damson Idris", "Kerry Condon"],
+    "genres": ["Sports", "Drama", "Action"]
   },
   {
     "id": 8,
@@ -61,7 +89,11 @@
     "release_date": "July 11, 2025",
     "score": 91,
     "image": "/images/coming8.jpg",
-    "category": "coming"
+    "category": "coming",
+    "description": "A fresh reboot of the Superman franchise as Clark Kent navigates his dual identity in a new DC Universe.",
+    "available_on": ["Max"],
+    "main_actors": ["David Corenswet", "Rachel Brosnahan", "Nathan Fillion"],
+    "genres": ["Superhero", "Action", "Fantasy"]
   },
   {
     "id": 9,
@@ -69,7 +101,11 @@
     "release_date": "July 25, 2025",
     "score": 93,
     "image": "/images/coming9.jpg",
-    "category": "coming"
+    "category": "coming",
+    "description": "Marvel's iconic superhero team makes their MCU debut, facing cosmic threats and scientific mysteries.",
+    "available_on": ["Disney+"],
+    "main_actors": ["Pedro Pascal", "Vanessa Kirby", "Joseph Quinn", "Ebon Moss-Bachrach"],
+    "genres": ["Action", "Superhero", "Sci-Fi"]
   },
   {
     "id": 10,
@@ -77,6 +113,10 @@
     "release_date": "November 21, 2025",
     "score": 88,
     "image": "/images/coming10.jpg",
-    "category": "coming"
+    "category": "coming",
+    "description": "A cinematic adaptation of the hit Broadway musical, exploring the untold story of the witches of Oz.",
+    "available_on": ["Peacock"],
+    "main_actors": ["Cynthia Erivo", "Ariana Grande", "Jonathan Bailey"],
+    "genres": ["Fantasy", "Musical", "Drama"]
   }
 ]

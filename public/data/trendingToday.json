@@ -4,35 +4,55 @@
     "title": "The Sinner",
     "image": "/images/today1.jpg",
     "score": 80,
-    "release_date": "Aug 7, 2017"
+    "release_date": "Aug 7, 2017",
+    "description": "A romantic drama capturing the fragility of love and betrayal.",
+    "available_on": ["Disney+"],
+    "main_actors": ["Gal Gadot", "Dwayne Johnson"],
+    "genres": ["Romance", "Drama"]
   },
   {
     "id": 2,
     "title": "Wolf Man",
     "image": "/images/today2.jpg",
     "score": 77,
-    "release_date": "Feb 3, 2025"
+    "release_date": "Feb 3, 2025",
+    "description": "An emotional ride of survival, hope, and redemption.",
+    "available_on": ["Netflix"],
+    "main_actors": ["Burak Özçivit", "Fahriye Evcen"],
+    "genres": ["Drama", "Thriller"]
   },
   {
     "id": 3,
     "title": "Aqua Man",
     "image": "/images/today3.jpg",
     "score": 67,
-    "release_date": "Dec 12, 2018"
+    "release_date": "Dec 12, 2018",
+    "description": "A comedy exploring cultural clashes and family ties.",
+    "available_on": ["Apple TV+"],
+    "main_actors": ["Chris Evans", "Scarlett Johansson"],
+    "genres": ["Comedy", "Family"]
   },
   {
     "id": 4,
     "title": "Mafia Muslimah",
     "image": "/images/today4.jpg",
     "score": 60,
-    "release_date": "May 11, 2022"
+    "release_date": "May 11, 2022",
+    "description": "A suspenseful tale of crime, conspiracy, and deception.",
+    "available_on": ["HBO Max"],
+    "main_actors": ["Ryan Gosling", "Emily Blunt"],
+    "genres": ["Crime", "Thriller"]
   },
   {
     "id": 5,
     "title": "QuickSand",
     "image": "/images/today5.jpg",
     "score": 40,
-    "release_date": "Apr 5, 2019"
+    "release_date": "Apr 5, 2019",
+    "description": "A mysterious sci-fi journey through time and memory.",
+    "available_on": ["Hulu"],
+    "main_actors": ["Leonardo DiCaprio", "Kate Winslet"],
+    "genres": ["Science Fiction", "Mystery"]
   },
   {
     "id": 6,
@@ -40,42 +60,66 @@
     "image": "/images/today6.jpg",
     "score": 88,
     "release_date": "Sep 14, 2020",
-    "topRated" : true
+    "topRated": true,
+    "description": "A mysterious sci-fi journey through time and memory.",
+    "available_on": ["Apple TV+"],
+    "main_actors": ["Ryan Gosling", "Emily Blunt"],
+    "genres": ["Science Fiction", "Mystery"]
   },
   {
     "id": 7,
     "title": "Askim yuzu",
     "image": "/images/today7.jpg",
     "score": 73,
-    "release_date": "Jul 22, 2016"
+    "release_date": "Jul 22, 2016",
+    "description": "An intense action film that questions loyalty and justice.",
+    "available_on": ["Apple TV+"],
+    "main_actors": ["Burak Özçivit", "Fahriye Evcen"],
+    "genres": ["Action", "Drama"]
   },
   {
     "id": 8,
     "title": "The Head",
     "image": "/images/today8.jpg",
     "score": 79,
-    "release_date": "Jun 12, 2020"
+    "release_date": "Jun 12, 2020",
+    "description": "A suspenseful tale of crime, conspiracy, and deception.",
+    "available_on": ["Amazon Prime"],
+    "main_actors": ["Shah Rukh Khan", "Deepika Padukone"],
+    "genres": ["Crime", "Thriller"]
   },
   {
     "id": 9,
     "title": "Dilwaly",
     "image": "/images/today9.jpg",
     "score": 82,
-    "release_date": "Dec 18, 2015"
+    "release_date": "Dec 18, 2015",
+    "description": "A comedy exploring cultural clashes and family ties.",
+    "available_on": ["Hulu"],
+    "main_actors": ["Ryan Gosling", "Emily Blunt"],
+    "genres": ["Comedy", "Romance"]
   },
   {
     "id": 10,
     "title": "Skyscraper",
     "image": "/images/today10.jpg",
     "score": 55,
-    "release_date": "Jul 13, 2018"
+    "release_date": "Jul 13, 2018",
+    "description": "An emotional ride of survival, hope, and redemption.",
+    "available_on": ["HBO Max"],
+    "main_actors": ["Tom Holland", "Zendaya"],
+    "genres": ["Action", "Drama"]
   },
   {
     "id": 11,
     "title": "Elle Maloush Kbeer",
     "image": "/images/today11.jpg",
     "score": 76,
-    "release_date": "Apr 12, 2021"
+    "release_date": "Apr 12, 2021",
+    "description": "A romantic drama capturing the fragility of love and betrayal.",
+    "available_on": ["Amazon Prime"],
+    "main_actors": ["Jason Momoa", "Amber Heard"],
+    "genres": ["Romance", "Drama"]
   },
   {
     "id": 12,
@@ -83,14 +127,22 @@
     "image": "/images/today12.jpg",
     "score": 88,
     "release_date": "Aug 6, 2021",
-    "topRated" : true
+    "topRated": true,
+    "description": "A suspenseful tale of crime, conspiracy, and deception.",
+    "available_on": ["Hulu"],
+    "main_actors": ["Gal Gadot", "Dwayne Johnson"],
+    "genres": ["Action", "Crime", "Thriller"]
   },
   {
     "id": 13,
     "title": "Pathan",
     "image": "/images/today13.jpg",
     "score": 69,
-    "release_date": "Jan 25, 2023"
+    "release_date": "Jan 25, 2023",
+    "description": "An intense action film that questions loyalty and justice.",
+    "available_on": ["HBO Max"],
+    "main_actors": ["Gal Gadot", "Dwayne Johnson"],
+    "genres": ["Action", "Thriller"]
   },
   {
     "id": 14,
@@ -98,13 +150,21 @@
     "image": "/images/today14.jpg",
     "score": 88,
     "release_date": "Jun 9, 2017",
-    "topRated" : true
+    "topRated": true,
+    "description": "A romantic drama capturing the fragility of love and betrayal.",
+    "available_on": ["Hulu"],
+    "main_actors": ["Jessica Biel", "Bill Pullman"],
+    "genres": ["Romance", "Drama"]
   },
   {
     "id": 15,
     "title": "Etla3oly bara",
     "image": "/images/today15.jpg",
     "score": 70,
-    "release_date": "Oct 3, 2018"
+    "release_date": "Oct 3, 2018",
+    "description": "An intense action film that questions loyalty and justice.",
+    "available_on": ["Netflix"],
+    "main_actors": ["Ryan Gosling", "Emily Blunt"],
+    "genres": ["Action", "Thriller"]
   }
 ]

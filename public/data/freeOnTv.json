@@ -5,69 +5,110 @@
     "release_date": "June 23, 1989",
     "score": 85,
     "image": "/images/freeOnTv1.jpg",
-    "topRated" : true
+    "topRated": true,
+    "description": "Gotham's dark knight battles the Joker in a visually iconic superhero tale directed by Tim Burton.",
+    "available_on": ["Max", "Amazon Prime"],
+    "main_actors": ["Michael Keaton", "Jack Nicholson", "Kim Basinger"],
+    "genres": ["Action", "Superhero", "Crime"]
   },
   {
     "id": 2,
     "title": "Safety Not Guaranteed",
     "release_date": "June 8, 2012",
     "score": 80,
-    "image": "/images/freeOnTv2.jpg"
+    "image": "/images/freeOnTv2.jpg",
+    "description": "Three magazine employees head out on an assignment to interview a guy who placed a classified ad seeking a companion for time travel.",
+    "available_on": ["Peacock", "Amazon Prime"],
+    "main_actors": ["Aubrey Plaza", "Mark Duplass", "Jake Johnson"],
+    "genres": ["Comedy", "Drama", "Sci-Fi"]
   },
   {
     "id": 3,
     "title": "The Fast and the Furious",
     "release_date": "June 22, 2001",
     "score": 82,
-    "image": "/images/freeOnTv3.jpg"
+    "image": "/images/freeOnTv3.jpg",
+    "description": "An undercover cop infiltrates the world of underground street racing to investigate a series of hijackings.",
+    "available_on": ["Peacock", "Amazon Prime"],
+    "main_actors": ["Vin Diesel", "Paul Walker", "Michelle Rodriguez"],
+    "genres": ["Action", "Crime", "Thriller"]
   },
   {
     "id": 4,
     "title": "Thunderheart",
     "release_date": "April 3, 1992",
     "score": 79,
-    "image": "/images/freeOnTv4.jpg"
+    "image": "/images/freeOnTv4.jpg",
+    "description": "A part-Sioux FBI agent is sent to a Native American reservation to investigate a murder, only to confront his own identity.",
+    "available_on": ["Amazon Prime"],
+    "main_actors": ["Val Kilmer", "Sam Shepard", "Graham Greene"],
+    "genres": ["Crime", "Drama", "Mystery"]
   },
   {
     "id": 5,
     "title": "Predestination",
     "release_date": "August 28, 2014",
     "score": 83,
-    "image": "/images/freeOnTv5.jpg"
+    "image": "/images/freeOnTv5.jpg",
+    "description": "A time-traveling agent embarks on his final mission to stop an elusive terrorist known as the Fizzle Bomber.",
+    "available_on": ["Amazon Prime", "Tubi"],
+    "main_actors": ["Ethan Hawke", "Sarah Snook", "Noah Taylor"],
+    "genres": ["Sci-Fi", "Thriller", "Mystery"]
   },
   {
     "id": 6,
     "title": "Panic Room",
     "release_date": "March 29, 2002",
     "score": 81,
-    "image": "/images/freeOnTv6.jpg"
+    "image": "/images/freeOnTv6.jpg",
+    "description": "A woman and her daughter are trapped in their home's panic room by burglars who are after a hidden fortune.",
+    "available_on": ["Netflix", "Amazon Prime"],
+    "main_actors": ["Jodie Foster", "Kristen Stewart", "Forest Whitaker"],
+    "genres": ["Thriller", "Drama", "Crime"]
   },
   {
     "id": 7,
     "title": "House of Flying Daggers",
     "release_date": "May 19, 2004",
     "score": 84,
-    "image": "/images/freeOnTv7.jpg"
+    "image": "/images/freeOnTv7.jpg",
+    "description": "During the Tang Dynasty, two captains are sent to find a mysterious revolutionary faction called the House of Flying Daggers.",
+    "available_on": ["Amazon Prime", "Tubi"],
+    "main_actors": ["Zhang Ziyi", "Takeshi Kaneshiro", "Andy Lau"],
+    "genres": ["Action", "Romance", "Drama"]
   },
   {
     "id": 8,
     "title": "Alan Partridge: Alpha Papa",
     "release_date": "August 7, 2013",
     "score": 78,
-    "image": "/images/freeOnTv8.jpg"  },
+    "image": "/images/freeOnTv8.jpg",
+    "description": "When a disgruntled DJ holds his workplace hostage, bumbling radio presenter Alan Partridge is thrust into the spotlight.",
+    "available_on": ["Amazon Prime", "Peacock"],
+    "main_actors": ["Steve Coogan", "Colm Meaney", "Tim Key"],
+    "genres": ["Comedy", "Action"]
+  },
   {
     "id": 9,
     "title": "A Few Good Men",
     "release_date": "December 11, 1992",
     "score": 87,
     "image": "/images/freeOnTv9.jpg",
-    "topRated" : true
+    "topRated": true,
+    "description": "Military lawyer Lt. Daniel Kaffee defends Marines accused of murder, uncovering a high-level conspiracy.",
+    "available_on": ["Netflix", "Amazon Prime"],
+    "main_actors": ["Tom Cruise", "Jack Nicholson", "Demi Moore"],
+    "genres": ["Drama", "Thriller", "Legal"]
   },
   {
     "id": 10,
     "title": "The Tailor of Panama",
     "release_date": "March 30, 2001",
     "score": 80,
-    "image": "/images/freeOnTv10.jpg"
+    "image": "/images/freeOnTv10.jpg",
+    "description": "A British spy recruits a tailor in Panama to gather intelligence, but the tailor's imagination spins out of control.",
+    "available_on": ["Amazon Prime"],
+    "main_actors": ["Pierce Brosnan", "Geoffrey Rush", "Jamie Lee Curtis"],
+    "genres": ["Thriller", "Drama", "Spy"]
   }
 ]

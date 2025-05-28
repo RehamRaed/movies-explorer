@@ -4,109 +4,168 @@
     "title": "The Forigener",
     "image": "/images/week1.jpg",
     "score": 86,
-    "release_date": "Aug 07,2017",
-    "topRated" : true
+    "release_date": "Aug 07, 2017",
+    "topRated": true,
+    "description": "An intense action film that questions loyalty and justice.",
+    "available_on": ["Netflix"],
+    "main_actors": ["Jackie Chan", "Pierce Brosnan"],
+    "genres": ["Action", "Thriller"]
   },
   {
     "id": 2,
     "title": "Lioness",
     "image": "/images/week2.jpg",
     "score": 87,
-    "release_date": "Feb 03,2025",
-    "topRated" : true
+    "release_date": "Feb 03, 2025",
+    "topRated": true,
+    "description": "A suspenseful tale of crime, conspiracy, and deception.",
+    "available_on": ["Amazon Prime"],
+    "main_actors": ["Zoe Saldaña", "Nicole Kidman"],
+    "genres": ["Crime", "Thriller"]
   },
   {
     "id": 3,
     "title": "Mummy",
     "image": "/images/today14.jpg",
     "score": 88,
-    "release_date": "Jun 09,2017",
-    "topRated" : true
+    "release_date": "Jun 09, 2017",
+    "topRated": true,
+    "description": "A mysterious sci-fi journey through time and memory.",
+    "available_on": ["Hulu"],
+    "main_actors": ["Tom Cruise", "Sofia Boutella"],
+    "genres": ["Sci-Fi", "Adventure"]
   },
   {
     "id": 4,
     "title": "G 20",
     "image": "/images/week4.jpg",
     "score": 69,
-    "release_date": "May 11,2023"
+    "release_date": "May 11, 2023",
+    "description": "An emotional ride of survival, hope, and redemption.",
+    "available_on": ["Disney+"],
+    "main_actors": ["Chris Hemsworth", "Brie Larson"],
+    "genres": ["Drama", "Action"]
   },
   {
     "id": 5,
     "title": "Gold",
     "image": "/images/week5.jpg",
     "score": 70,
-    "release_date": "Apr 05,2019"
+    "release_date": "Apr 05, 2019",
+    "description": "A romantic drama capturing the fragility of love and betrayal.",
+    "available_on": ["Netflix"],
+    "main_actors": ["Matthew McConaughey", "Bryce Dallas Howard"],
+    "genres": ["Romance", "Drama"]
   },
   {
     "id": 6,
     "title": "The Colony",
     "image": "/images/week6.jpg",
     "score": 92,
-    "release_date": "Sep 14,2020",
-    "topRated" : true
+    "release_date": "Sep 14, 2020",
+    "topRated": true,
+    "description": "A sci-fi story about survival in a post-apocalyptic Earth.",
+    "available_on": ["HBO Max"],
+    "main_actors": ["Nora Arnezeder", "Sarah-Sofie Boussnina"],
+    "genres": ["Sci-Fi", "Thriller"]
   },
   {
     "id": 7,
     "title": "Skyscraper",
     "image": "/images/today10.jpg",
     "score": 55,
-    "release_date": "Jul 13,2018"
+    "release_date": "Jul 13, 2018",
+    "description": "An intense thriller of a man trying to save his family from a burning skyscraper.",
+    "available_on": ["HBO Max"],
+    "main_actors": ["Dwayne Johnson", "Neve Campbell"],
+    "genres": ["Action", "Thriller"]
   },
   {
     "id": 8,
     "title": "Fall",
     "image": "/images/week7.jpg",
     "score": 76,
-    "release_date": "Apr 12,2021"
+    "release_date": "Apr 12, 2021",
+    "description": "A psychological thriller set atop a remote, abandoned radio tower.",
+    "available_on": ["Netflix"],
+    "main_actors": ["Grace Caroline Currey", "Virginia Gardner"],
+    "genres": ["Thriller", "Drama"]
   },
   {
     "id": 9,
     "title": "1899",
     "image": "/images/week8.jpg",
     "score": 82,
-    "release_date": "Dec 18,2015"
+    "release_date": "Dec 18, 2015",
+    "description": "A historical mystery drama about a ship’s passengers encountering supernatural events.",
+    "available_on": ["Netflix"],
+    "main_actors": ["Emily Beecham", "Andreas Pietschmann"],
+    "genres": ["Mystery", "Historical", "Drama"]
   },
   {
     "id": 10,
     "title": "Askim yuzu",
     "image": "/images/today7.jpg",
     "score": 73,
-    "release_date": "Jul 22,2016"
+    "release_date": "Jul 22, 2016",
+    "description": "A romantic Turkish drama exploring love and heartbreak.",
+    "available_on": ["Apple TV+"],
+    "main_actors": ["Burak Özçivit", "Fahriye Evcen"],
+    "genres": ["Romance", "Drama" ]
   },
   {
     "id": 11,
     "title": "The Head",
     "image": "/images/today8.jpg",
     "score": 79,
-    "release_date": "Jun 12,2020"
+    "release_date": "Jun 12, 2020",
+    "description": "A suspenseful mystery unfolding in an isolated research base in Antarctica.",
+    "available_on": ["Amazon Prime"],
+    "main_actors": ["John Lynch", "Katharine O'Donnelly"],
+    "genres": ["Mystery", "Thriller"]
   },
   {
     "id": 12,
     "title": "Suicide Squad2",
     "image": "/images/today12.jpg",
     "score": 88,
-    "release_date": "Aug 06,2021",
-    "topRated" : true
+    "release_date": "Aug 06, 2021",
+    "description": "A group of antiheroes must complete a deadly mission for the government.",
+    "available_on": ["HBO Max"],
+    "main_actors": ["Margot Robbie", "Idris Elba"],
+    "genres": ["Action", "Adventure"]
   },
   {
     "id": 13,
     "title": "Pathan",
     "image": "/images/today13.jpg",
     "score": 69,
-    "release_date": "Jan 25,2023"
+    "release_date": "Jan 25, 2023",
+    "description": "An Indian spy action thriller full of twists and international conflicts.",
+    "available_on": ["Amazon Prime"],
+    "main_actors": ["Shah Rukh Khan", "Deepika Padukone"],
+    "genres": ["Action", "Thriller"]
   },
   {
     "id": 14,
     "title": "Azrael",
     "image": "/images/week3.jpg",
     "score": 78,
-    "release_date": "Dec 12,2018"
+    "release_date": "Dec 12, 2018",
+    "description": "A dark fantasy thriller based on mythological vengeance.",
+    "available_on": ["Hulu"],
+    "main_actors": ["Jessica Chastain", "Oscar Isaac"],
+    "genres": ["Fantasy", "Thriller"]
   },
   {
     "id": 15,
     "title": "Etla3oly bara",
     "image": "/images/today15.jpg",
     "score": 70,
-    "release_date": "Oct 03,2018"
+    "release_date": "Oct 03, 2018",
+    "description": "An Egyptian romantic comedy full of light-hearted chaos.",
+    "available_on": ["Shahid VIP"],
+    "main_actors": ["Mohamed Emam", "Amina Khalil"],
+    "genres": ["Romance", "Comedy"]
   }
 ]
