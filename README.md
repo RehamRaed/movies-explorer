@@ -5,7 +5,7 @@
 
 ## 🚀 Live Demo
 
-👉 [live demo](https://movie-explorer-beta-mauve.vercel.app/)  
+👉 [live demo](https://movie-explorer-iota-jade.vercel.app/)  
 
 ---
 
