@@ -1,8 +1,11 @@
-import { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../src/assets/logo.png";
 import "../styles/Header.css";
 import Dropdown from "react-bootstrap/Dropdown";
+
+import { auth } from "../firebase";
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
 
 function Header() {
   const [sideNav, setsideNav] = useState(false);
@@ -12,6 +15,12 @@ function Header() {
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [isSignup, setIsSignup] = useState(false);
   const [fadeState, setFadeState] = useState("fade-in");
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [errors, setErrors] = useState({});
+  const [successMessage, setSuccessMessage] = useState("");
 
   const dropdownTimeoutMovies = useRef(null);
   const dropdownTimeoutPeople = useRef(null);
@@ -26,17 +35,65 @@ function Header() {
   useEffect(() => {
     if (showLoginModal) {
       document.body.classList.add("blur-background");
+      setErrors({});
     } else {
       document.body.classList.remove("blur-background");
+      resetFields();
     }
   }, [showLoginModal]);
 
-  const handleCloseModal = () => {
+  const resetFields = () => {
+    setName("");
+    setEmail("");
+    setPassword("");
+    setErrors({});
+    setIsSignup(false);
+  };
+
+  const closeModalWithAnimation = () => {
     setFadeState("fade-out");
     setTimeout(() => {
       setShowLoginModal(false);
       setFadeState("fade-in");
     }, 600);
+  };
+
+  const validateEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
+  const handleAuth = async () => {
+    const newErrors = {};
+
+    if (isSignup && name.trim() === "") {
+      newErrors.name = true;
+    }
+    if (!validateEmail(email)) {
+      newErrors.email = true;
+    }
+    if (password.trim() === "") {
+      newErrors.password = true;
+    }
+
+    setErrors(newErrors);
+    if (Object.keys(newErrors).length > 0) return;
+
+    try {
+      if (isSignup) {
+        const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+        await updateProfile(userCredential.user, { displayName: name });
+        showSuccess("Account created successfully!");
+      } else {
+        await signInWithEmailAndPassword(auth, email, password);
+        showSuccess("Logged in successfully!");
+      }
+      closeModalWithAnimation();
+    } catch (error) {
+      alert(error.message);
+    }
+  };
+
+  const showSuccess = (msg) => {
+    setSuccessMessage(msg);
+    setTimeout(() => setSuccessMessage(""), 3000);
   };
 
   const sidenavShow = () => {
@@ -67,6 +124,12 @@ function Header() {
 
   return (
     <>
+      {successMessage && (
+        <div className="success-message">
+          {successMessage}
+        </div>
+      )}
+
       <header className="header">
         <div className="logo">
           <img src={logo} alt="logoImg" className="logo" />
@@ -200,7 +263,7 @@ function Header() {
       {showLoginModal && (
         <div className={`modal-overlay ${fadeState}`}>
           <div className="custom-modal">
-            <button className="close-button" onClick={handleCloseModal}>
+            <button className="close-button" onClick={closeModalWithAnimation}>
               &times;
             </button>
 
@@ -209,23 +272,33 @@ function Header() {
             </h2>
 
             {isSignup && (
-              <input type="text" placeholder="Name" className="modal-input" />
+              <input
+                type="text"
+                placeholder="Name"
+                className={`modal-input ${errors.name ? "input-error" : ""}`}
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
             )}
-            <input type="email" placeholder="Email" className="modal-input" />
+
+            <input
+              type="email"
+              placeholder="Email"
+              className={`modal-input ${errors.email ? "input-error" : ""}`}
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+
             <input
               type="password"
               placeholder="Password"
-              className="modal-input"
+              className={`modal-input ${errors.password ? "input-error" : ""}`}
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
             />
 
-            <p className="modal-message">
-              This is a demo , Your data is not stored.
-            </p>
-
             <p className="modal-link">
-              {isSignup
-                ? "Already have an account? "
-                : "Don't have an account? "}
+              {isSignup ? "Already have an account? " : "Don't have an account? "}
               <span
                 className="signup-link"
                 onClick={() => setIsSignup(!isSignup)}
@@ -235,7 +308,7 @@ function Header() {
               </span>
             </p>
 
-            <button className="modal-submit">
+            <button className="modal-submit" onClick={handleAuth}>
               {isSignup ? "Sign up" : "Login"}
             </button>
           </div>

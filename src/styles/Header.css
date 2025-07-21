@@ -115,6 +115,7 @@
 .tooltip-arrow {
   position: absolute;
   top: -10px;
+  
   right: 140px;
   width: 0;
   height: 0;
@@ -306,5 +307,43 @@
   100% {
     opacity: 0;
     transform: translateX(80px) scale(0.95);
+  }
+}
+.input-error {
+  border: 2px solid #dc3545 !important;
+  box-shadow: 0 0 6px #dc3545;
+}
+
+.success-message {
+  position: fixed;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #28a745;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1050;
+  animation: slideDownFadeOut 3s forwards;
+}
+
+@keyframes slideDownFadeOut {
+  0% {
+    top: -50px;
+    opacity: 0;
+  }
+  10% {
+    top: 20px;
+    opacity: 1;
+  }
+  90% {
+    top: 20px;
+    opacity: 1;
+  }
+  100% {
+    top: -50px;
+    opacity: 0;
   }
 }
