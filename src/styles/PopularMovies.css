@@ -227,3 +227,15 @@
 
 }
 
+.title {
+  padding-left: 60px;
+  color: white;
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .title {
+    padding-left: 0;
+    text-align: center; 
+  }
+}
