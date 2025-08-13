@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { useAuth } from "../context/AuthContext"; 
+import { useAuth } from "../context/AuthContext";
 import { auth } from "../firebase";
 import {
   createUserWithEmailAndPassword,
@@ -25,7 +25,7 @@ const schema = (isSignup) =>
   });
 
 function AuthModal() {
-  const { isSignup, toggleSignup, closeAuthModal } = useAuth(); 
+  const { isSignup, toggleSignup, closeAuthModal } = useAuth();
   const [fadeState, setFadeState] = useState("fade-in");
   const [successMessage, setSuccessMessage] = useState("");
 
@@ -70,7 +70,7 @@ function AuthModal() {
   const closeModalWithAnimation = () => {
     setFadeState("fade-out");
     setTimeout(() => {
-      closeAuthModal(); 
+      closeAuthModal();
       setFadeState("fade-in");
     }, 600);
   };
@@ -102,9 +102,9 @@ function AuthModal() {
                 {...register("name")}
                 className={`modal-input ${errors.name ? "input-error" : ""}`}
               />
-              {errors.name && (
-                <p className="error-message">{errors.name.message}</p>
-              )}
+              <p className="error-message">
+                {errors.name ? errors.name.message : ""}
+              </p>
             </>
           )}
 
@@ -114,9 +114,9 @@ function AuthModal() {
             {...register("email")}
             className={`modal-input ${errors.email ? "input-error" : ""}`}
           />
-          {errors.email && (
-            <p className="error-message">{errors.email.message}</p>
-          )}
+          <p className="error-message">
+            {errors.email ? errors.email.message : ""}
+          </p>
 
           <input
             type="password"
@@ -124,16 +124,16 @@ function AuthModal() {
             {...register("password")}
             className={`modal-input ${errors.password ? "input-error" : ""}`}
           />
-          {errors.password && (
-            <p className="error-message">{errors.password.message}</p>
-          )}
+          <p className="error-message">
+            {errors.password ? errors.password.message : ""}
+          </p>
 
           <p className="modal-link">
             {isSignup ? "Already have an account? " : "Don't have an account? "}
             <span
               className="signup-link"
               onClick={() => {
-                toggleSignup(); 
+                toggleSignup();
                 reset();
               }}
               style={{ cursor: "pointer", color: "#007bff" }}

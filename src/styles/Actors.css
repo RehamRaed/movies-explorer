@@ -89,11 +89,14 @@
 
 
 .error-message {
-  text-align: center;
+  height: 20px !important;        /* ارتفاع ثابت للرسالة */
+  text-align: right;
+  font-size: 15px;
   color: red;
-  margin-top: 10px;
-  font-weight: bold;
 }
+
+
+
 
 
 @media (max-width: 1200px) {
