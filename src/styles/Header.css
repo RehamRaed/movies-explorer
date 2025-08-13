@@ -115,8 +115,7 @@
 .tooltip-arrow {
   position: absolute;
   top: -10px;
-  
-  right: 140px;
+  right: 145px;
   width: 0;
   height: 0;
   border-left: 8px solid transparent;
@@ -185,7 +184,7 @@
 }
 
 .tooltip-arrow {
-  right: 94px !important;
+  right: 87.5px ;
   
 }
   }
@@ -346,4 +345,10 @@
     top: -50px;
     opacity: 0;
   }
+}
+@media (max-width: 400px) {
+.custom-tooltip {
+  padding: 10px 10px;
+  font-size: 14.5px;
+}
 }

@@ -79,7 +79,7 @@
     "image": "/images/coming7.jpg",
     "category": "coming",
     "description": "A high-octane sports drama set in the world of Formula 1 racing, produced by Brad Pitt.",
-    "available_on": ["Apple TV+"],
+    "available_on": ["HBO Max" ,"Paramount+"],
     "main_actors": ["Brad Pitt", "Damson Idris", "Kerry Condon"],
     "genres": ["Sports", "Drama", "Action"]
   },

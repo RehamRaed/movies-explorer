@@ -81,7 +81,7 @@
     "genres": ["Adventure", "Mystery"],
     "purpose": "main",
     "description": "Adventurers explore a mysterious island hiding ancient secrets.",
-    "available_on": ["Apple TV+"],
+    "available_on": ["Netflix" , "Amazon Prime Video"],
     "main_actors": ["Tom Holland", "Zendaya"]
   },
   {
@@ -166,7 +166,7 @@
     "genres": ["Adventure", "Sci-Fi"],
     "purpose": "extra",
     "description": "A team of astronauts ventures into deep space in search of a planet where gravity behaves differently.",
-    "available_on": ["Apple TV+"],
+    "available_on": [ "Netflix" , "Hulu"] ,
     "main_actors": ["Ryan Gosling", "Natalie Portman"]
   },
   {
@@ -178,7 +178,7 @@
     "genres": ["Drama", "Romance"],
     "purpose": "extra",
     "description": "In the heart of Casablanca, two strangers connect in a timeless café filled with stories of love and loss.",
-    "available_on": ["Netflix"],
+    "available_on": ["Netflix","HBO Max"],
     "main_actors": ["Rami Malek", "Marion Cotillard"]
   },
   {

@@ -1,5 +1,8 @@
-import '../styles/JoinSection.css'
+import '../styles/JoinSection.css';
+import { useAuth  } from "../context/AuthContext";
+
 function JoinSection(){
+  const { openAuthModal } = useAuth (); 
 
 return(
 <section className="join-section">
@@ -8,7 +11,10 @@ return(
     <p className="join-description">
       Take control of your entertainment journey — build your own watchlists, track what you’ve seen, and discover your next favorite show from theaters, TV, or top streaming platforms like Netflix and Prime Video.
     </p>
-    <a href="/" className="button">Sign Up</a>
+   <button className="button" onClick={openAuthModal}>
+          Sign Up
+        </button> 
+    
   </div>
 </section>
 )}

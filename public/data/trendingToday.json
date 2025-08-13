@@ -28,7 +28,7 @@
     "score": 67,
     "release_date": "Dec 12, 2018",
     "description": "A comedy exploring cultural clashes and family ties.",
-    "available_on": ["Apple TV+"],
+    "available_on": ["Netflix" ,"HBO Max" ,"Amazon Prime"],
     "main_actors": ["Chris Evans", "Scarlett Johansson"],
     "genres": ["Comedy", "Family"]
   },
@@ -62,7 +62,7 @@
     "release_date": "Sep 14, 2020",
     "topRated": true,
     "description": "A mysterious sci-fi journey through time and memory.",
-    "available_on": ["Apple TV+"],
+    "available_on": ["Netflix" ],
     "main_actors": ["Ryan Gosling", "Emily Blunt"],
     "genres": ["Science Fiction", "Mystery"]
   },
@@ -73,7 +73,7 @@
     "score": 73,
     "release_date": "Jul 22, 2016",
     "description": "An intense action film that questions loyalty and justice.",
-    "available_on": ["Apple TV+"],
+    "available_on": ["HBO Max","Hulu"],
     "main_actors": ["Burak Özçivit", "Fahriye Evcen"],
     "genres": ["Action", "Drama"]
   },

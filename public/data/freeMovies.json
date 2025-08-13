@@ -7,7 +7,7 @@
     "image": "/images/freeMovie1.jpg",
     "topRated": true,
     "description": "In early 20th-century Vienna, a magician named Eisenheim uses his abilities to secure the love of a woman far above his social standing.",
-    "available_on": ["Amazon Prime Video", "Apple TV"],
+    "available_on": ["Amazon Prime Video", "Netflix" ],
     "showing_location": "Streaming Platforms",
     "main_actors": ["Edward Norton", "Paul Giamatti", "Jessica Biel"],
     "genres": ["Mystery", "Drama", "Romance"]
@@ -32,7 +32,7 @@
     "score": 84,
     "image": "/images/freeMovie3.jpg",
     "description": "In a post-apocalyptic world, a lone warrior protects a sacred book that holds the key to saving humanity.",
-    "available_on": ["Amazon Prime Video", "Apple TV"],
+    "available_on": ["Amazon Prime Video", "Max"],
     "showing_location": "Streaming Platforms",
     "main_actors": ["Denzel Washington", "Gary Oldman", "Mila Kunis"],
     "genres": ["Action", "Drama", "Sci-Fi"]
@@ -45,7 +45,7 @@
     "image": "/images/freeMovie4.jpg",
     "topRated": true,
     "description": "After graduating, Christopher McCandless abandons his possessions and hitchhikes to Alaska to live in the wilderness.",
-    "available_on": ["Amazon Prime Video", "Apple TV"],
+    "available_on": ["Amazon Prime Video"],
     "showing_location": "Streaming Platforms",
     "main_actors": ["Emile Hirsch", "Marcia Gay Harden", "William Hurt"],
     "genres": ["Adventure", "Biography", "Drama"]
@@ -70,7 +70,7 @@
     "score": 80,
     "image": "/images/freeMovie6.jpg",
     "description": "A geologist and his family fight for survival when a massive tsunami strikes a Norwegian fjord.",
-    "available_on": ["Amazon Prime Video", "Apple TV"],
+    "available_on": ["Amazon Prime Video"],
     "showing_location": "Streaming Platforms",
     "main_actors": ["Kristoffer Joner", "Ane Dahl Torp", "Jonas Hoff Oftebro"],
     "genres": ["Action", "Drama", "Thriller"]
@@ -95,7 +95,7 @@
     "score": 83,
     "image": "/images/freeMovie8.jpg",
     "description": "A retiring professor reveals to his colleagues that he is an immortal who has walked the earth for 14,000 years.",
-    "available_on": ["Amazon Prime Video", "Apple TV"],
+    "available_on": ["Amazon Prime Video"],
     "showing_location": "Streaming Platforms",
     "main_actors": ["David Lee Smith", "Tony Todd", "John Billingsley"],
     "genres": ["Drama", "Sci-Fi"]
@@ -107,7 +107,7 @@
     "score": 78,
     "image": "/images/freeMovie9.jpg",
     "description": "A man from another world crashes on Earth during the Viking era and must battle a deadly creature.",
-    "available_on": ["Amazon Prime Video", "Apple TV"],
+    "available_on": ["Amazon Prime Video"],
     "showing_location": "Streaming Platforms",
     "main_actors": ["Jim Caviezel", "Sophia Myles", "Jack Huston"],
     "genres": ["Action", "Adventure", "Sci-Fi"]
@@ -120,7 +120,7 @@
     "image": "/images/freeMovie10.jpg",
     "topRated": true,
     "description": "A young man cares for his obese mother and mentally impaired brother in a small town.",
-    "available_on": ["Amazon Prime Video", "Apple TV"],
+    "available_on": ["Amazon Prime Video"],
     "showing_location": "Streaming Platforms",
     "main_actors": ["Johnny Depp", "Leonardo DiCaprio", "Juliette Lewis"],
     "genres": ["Drama"]
@@ -132,7 +132,7 @@
     "score": 81,
     "image": "/images/freeMovie11.jpg",
     "description": "A woman searches for her missing daughter on a flight, but no one believes the child was ever on board.",
-    "available_on": ["Amazon Prime Video", "Apple TV"],
+    "available_on": ["Amazon Prime Video"],
     "showing_location": "Streaming Platforms",
     "main_actors": ["Jodie Foster", "Peter Sarsgaard", "Sean Bean"],
     "genres": ["Drama", "Mystery", "Thriller"]
@@ -144,7 +144,7 @@
     "score": 76,
     "image": "/images/freeMovie12.jpg",
     "description": "A group of young men in a religious seminary confront their inner demons and desires.",
-    "available_on": ["Amazon Prime Video", "Apple TV"],
+    "available_on": ["Amazon Prime Video"],
     "showing_location": "Streaming Platforms",
     "main_actors": ["Matthew Christopher", "Ben Kurland", "Sean Hoagland"],
     "genres": ["Drama"]

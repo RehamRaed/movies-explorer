@@ -9,7 +9,7 @@
     "purpose": "main",
     "topRated": true,
     "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
-    "available_on": ["Netflix", "Amazon Prime Video", "Apple TV"],
+    "available_on": ["Netflix", "Amazon Prime Video"],
     "main_actors": ["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"]
   },
   {
@@ -48,7 +48,7 @@
     "purpose": "main",
     "topRated": true,
     "description": "The presidencies of Kennedy and Johnson, Vietnam, Watergate, and other events unfold through the perspective of an Alabama man with a low IQ.",
-    "available_on": ["Netflix", "Paramount+", "Apple TV"],
+    "available_on": ["Netflix", "Paramount+"],
     "main_actors": ["Tom Hanks", "Robin Wright", "Gary Sinise"]
   },
   {
@@ -315,7 +315,7 @@
     "genre": ["Drama", "Romance"],
     "purpose": "extra",
     "short_description": "A caregiver tries to give a paralyzed man a reason to enjoy life again.",
-    "available_on": ["OSN Movies Hollywood"],
+    "available_on": ["OSN Movies Hollywood" , "Netflix"],
     "main_actors": ["Emilia Clarke", "Sam Claflin"]
   },
   {
