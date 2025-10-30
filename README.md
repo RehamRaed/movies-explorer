@@ -5,7 +5,7 @@
 
 ## 🚀 Live Demo
 
-👉 [live demo](https://movies-website-ashy.vercel.app/movies)  
+👉 [live demo](https://movies-website-ashy.vercel.app/)  
 
 ---
 
